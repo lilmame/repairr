@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    border-bottom: 1px solid #FFFFFF;
+    width: 1564px;
+    height: 99px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_info{
+    display: flex;
+    padding: 30px;
+gap: 50px;
+
+}
+/* img{
+    width: 50px;
+} */
+img {
+    
+    transition: transform 0.5s ease-in-out;
+    width: 50px;
+  }
+.scrolling-image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  
+.scroll-right {
+    transform: translateX(0);
+}
+  
+.scroll-left {
+    transform: translateX(-100%);
+  }

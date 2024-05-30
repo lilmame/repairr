@@ -1,0 +1,11 @@
+.mainCard{
+    background-image: url('../../img/kitchen.png');
+    width: 1940px;
+    height: 1258px;
+}
+.header{
+    display: flex;
+    
+    justify-content: center;
+    
+}
